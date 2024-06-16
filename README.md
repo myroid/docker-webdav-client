@@ -1,5 +1,10 @@
 # Dockerised WebDAV Client
 
+> **Fork by [efrecon/docker-webdav-client](https://github.com/efrecon/docker-webdav-client), Thanks [efrecon/webdav-client](https://hub.docker.com/r/efrecon/webdav-client).**
+> - Add the **PGID** environment variable to add supplementary groups for the owner.
+> - Add the **DIR_MODE** environment variable for directories. default is 755.
+> - Add the **FILE_MODE** environment variable for files. default is 755.
+
 This Docker [image] (also at the [GHCR]) and associated [project] facilitate
 mounting of remote WebDAV resources into containers. Mounting is implemented
 using [davfs2] and the image makes it possible to set all supported davfs
